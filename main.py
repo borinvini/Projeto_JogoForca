@@ -8,6 +8,7 @@ acertos   = []
 erros     = 0
 
 while True:
+    # * IMPRIME NA TELA A PALAVRA SECRETA
     adivinha = ""
     for letra in palavra:
         if letra in acertos:
